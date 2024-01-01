@@ -1,0 +1,130 @@
+:root{
+    --first-color:#5b4834;
+    --second-color:#aaa69d;
+}
+a,a:hover{
+    text-decoration: none;
+}
+body{
+    background: #f3f3f3;
+}
+.content{
+    margin-top: 60px;
+}
+.content .post{
+    text-align: center;
+    background: #fff;
+    padding: 20px 22px;
+    border-bottom: 1px solid #EAEA;
+    margin-bottom: 30px;
+     
+}
+.post .post-img img{
+    width: 100%;
+}
+.post .post-img img{
+    width: 100%;
+    height: 300px;
+}
+.post .post-title{
+    margin: 10px 0;
+}
+.post .post-detalis button.btn-custom{
+    background:transparent ;
+    color: var(--first-color);
+
+    width: 110px;
+    margin-bottom: 10px;
+}
+.post .post-detalis button.btn-custom:hover{
+    background: var(--first-color);
+    color: #fff;
+}
+.post .post-detalis .post-info span{
+    margin-right: 10px;
+
+}
+.categories{
+    background: #fff;
+    border-bottom: 1px solid #eaeaea;
+    padding: 20px 10px;
+    margin-bottom: 30px;
+
+
+
+}
+.categories h4 {
+    text-align: center;
+    padding-bottom:10px ;
+    border-bottom: 1px solid var(--second-color);
+}
+.categories ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+.categories ul li {
+    background: var(--first-color);
+    margin-bottom: 3px;
+    padding: 5px ;
+    border-radius: 2px;
+}
+.categories ul li:hover{
+    background: var(--second-color);
+    transition: all 0.3s ease-in-out;
+}
+.categories ul li a {
+    color:#fff ;
+}
+
+.last-poats{
+    background: #fff;
+    border: 1px solid #eaeaea;
+    padding: 20px 10px;
+}
+.last-poats h4 {
+text-align: center;
+
+} 
+
+.last-poats ul {
+    list-style: none;
+    margin-top : 20px;
+    padding: 10;
+}
+
+
+.last-poats ul li {
+    border-bottom: 1px solid var(--second-color);
+    margin-bottom:10px ;
+    padding: 5px 0;
+}
+.last-poats ul li:first-child{
+    border-top: 1px solid var(--second-color);
+}
+
+.last-poats ul li:last-child{
+    border-bottom: 0px;
+}
+.last-poats ul li .span-imge{
+float: right;
+margin-left: 10px;
+}
+.last-poats ul li .span-imge img{
+    width: 80px;
+    height: 60px;
+}
+
+.last-poats ul li a {
+    color: var(--first-color);
+}
+.last-poats ul li a :hover{
+    color: var(--second-color);
+    transition: all 0.3s ease-in-out;
+}
+footer{
+
+    border-top: 1px solid #eaeaea;
+    text-align: center;
+    padding: 10px 0;
+}
